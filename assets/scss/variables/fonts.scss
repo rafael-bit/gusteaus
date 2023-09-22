@@ -1,0 +1,13 @@
+// Variáveis de fonte
+$poppins: 'Poppins', sans-serif;
+$satisfy: 'Satisfy', cursive;
+
+@font-face {
+  font-family: $poppins; 
+  src: url('../../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $satisfy; 
+  src: url('../../fonts/Satisfy/Satisfy-Regular.ttf') format('truetype');
+}

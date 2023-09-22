@@ -1,0 +1,9 @@
+@use '../../node_modules/bootstrap/scss/bootstrap';
+//@use '../../node_modules/bootstrap-icons/font/bootstrap-icons'; Corrigir o diretório da fonte do BS I
+
+@use './variables/colors' as c;
+@use './variables/fonts' as f;
+
+h1 {
+   font-family: f.$satisfy;
+}
